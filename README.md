@@ -1,6 +1,6 @@
 # EXP-04-Interfacing a 16X2 type LCD display to LPC2148 ARM 7Microcontroller
 
-Name :ezhil mathi  r
+Name :EZHIL MATHI R
 
 Roll no :212221230026
 
@@ -10,9 +10,9 @@ Roll no :212221230026
 ## Interfacing a 16X2 type LCD display to LPC2148 ARM 7 Microcontroller 
 
 ## Aim: 
-To Interface 16X2 type LCD display to LPC2148 ARM 7 and write a code for displaying a string to it
+To Interface 16X2 type LCD display to LPC2148 ARM 7 and write a code for displaying a string to it.
 ## Components required:
-Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
+Proteus ISIS professional suite, Kiel μ vision 5 Development environment. 
 ## Theory 
  
 ## LCD16X2 
@@ -187,9 +187,9 @@ int main(void)
 {
 
 	LCD_INIT();
-	LCD_STRING("212221230083");//first line
+	LCD_STRING("212221230026");//first line
 	LCD_CMD(0xC0);
-	LCD_STRING("RITHIGA SRI.B");//second line
+	LCD_STRING("EZHIL MATHI R");//second line
 
 	return 0;
 }
@@ -216,7 +216,7 @@ int main(void)
 
 ## Result :
 
-Interfaced an LCD with ARM microcontroller is executed and displayed the strings  
+Interfaced an LCD with ARM microcontroller is executed and displayed the strings.  
 
  
 
